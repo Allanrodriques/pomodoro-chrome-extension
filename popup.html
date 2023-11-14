@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="popup.css">
+  <title>Pomodoro Timer</title>
+</head>
+<body>
+
+  <div id="timer">25:00</div>
+  <div id="controls">
+    <button id="startButton">Start</button>
+    <button id="resetButton">Reset</button>
+  </div>
+  <button id="closeButton" class="close-button">X</button>
+
+  <div>
+    <label for="sessionLength">Session Length (minutes):</label>
+    <input type="number" id="sessionLength" min="1" max="60" value="25">
+  </div>
+  <div>
+    <label for="breakLength">Break Length (minutes):</label>
+    <input type="number" id="breakLength" min="1" max="60" value="5">
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

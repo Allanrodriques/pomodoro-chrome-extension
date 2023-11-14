@@ -1,0 +1,92 @@
+body {
+    width: 280px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #34495e; /* Main background color */
+    margin: 0;
+    padding: 20px;
+    color: #ecf0f1; /* Main text color */
+  }
+  
+  #timer {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #2ecc71; /* Timer text color */
+  }
+  
+  #controls {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #3498db; /* Button background color */
+    color: #ffffff; /* Button text color */
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2980b9; /* Button hover color */
+  }
+  
+  /* Input styles */
+  input {
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+    width: 80px;
+    text-align: center;
+    font-size: 14px;
+    color: #2c3e50; /* Input text color */
+    border-radius: 4px;
+
+  }
+  
+  /* Container for session and break input */
+  div {
+    margin-top: 10px;
+    background-color: #ecf0f1; /* Input container background color */
+    padding: 10px;
+    border-radius: 4px;
+    color: #2c3e50;
+  }
+  
+  /* Background color for the input container */
+  div:nth-child(odd) {
+    background-color: #bdc3c7; /* Alternating input container background color */
+  }
+  
+
+
+#controls {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #closeButton {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    background-color: #e74c3c; /* Close button background color */
+    color: #ffffff; /* Close button text color */
+    border: none;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10%; /* Make it round */
+  }
+  
+  #closeButton:hover {
+    background-color: #c0392b; /* Close button hover color */
+  }
