@@ -6,7 +6,6 @@
     "description": "Boost productivity and focus with PomodoroPal, your dedicated Pomodoro timer for Chrome.",
     "permissions": [
         "storage",
-    "activeTab",
     "tabs"
     ],
     "action": {
